@@ -4,7 +4,6 @@
     font-style: normal;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +31,8 @@ body {
     color: white;
 }
 
-.content label, .content input {
+.content label,
+.content input {
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -56,4 +56,22 @@ button {
 button:hover {
     background-color: #0056b3;
     color: #fff;
+}
+
+
+.note-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.note-list li {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
